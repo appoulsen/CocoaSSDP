@@ -23,7 +23,6 @@
 
 #import "SSDPServiceBrowser.h"
 
-#import "GCDAsyncUdpSocket.h"
 #import "SSDPService.h"
 #import "SSDPServiceTypes.h"
 
@@ -31,7 +30,8 @@
 #import <sys/socket.h>
 #import <net/if.h>
 #import <arpa/inet.h>
-
+#import <CocoaAsyncSocket/CocoaAsyncSocket.h>
+#import <UIKit/UIKit.h>
 
 NSString *const SSDPMulticastGroupAddress = @"239.255.255.250";
 int const SSDPMulticastUDPPort = 1900;
