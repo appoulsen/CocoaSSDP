@@ -7,78 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0B924EE1ED5C35A00BA1543 /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = B0B924CC1ED5C35900BA1543 /* CHANGELOG.md */; };
+		6EBD13C31FE33F57005DFD94 /* SSDPService.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924CE1ED5C35900BA1543 /* SSDPService.h */; };
+		6EBD13C41FE33F57005DFD94 /* SSDPService.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924CF1ED5C35900BA1543 /* SSDPService.m */; };
+		6EBD13C51FE33F57005DFD94 /* SSDPServiceBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924D01ED5C35900BA1543 /* SSDPServiceBrowser.h */; };
+		6EBD13C61FE33F57005DFD94 /* SSDPServiceBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924D11ED5C35900BA1543 /* SSDPServiceBrowser.m */; };
+		6EBD13C71FE33F57005DFD94 /* SSDPServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924D21ED5C35900BA1543 /* SSDPServiceTypes.h */; };
+		6EBD13C81FE33F57005DFD94 /* SSDPServiceTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924D31ED5C35900BA1543 /* SSDPServiceTypes.m */; };
 		B0B924EF1ED5C35A00BA1543 /* SSDPService.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924CE1ED5C35900BA1543 /* SSDPService.h */; };
 		B0B924F01ED5C35A00BA1543 /* SSDPService.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924CF1ED5C35900BA1543 /* SSDPService.m */; };
 		B0B924F11ED5C35A00BA1543 /* SSDPServiceBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924D01ED5C35900BA1543 /* SSDPServiceBrowser.h */; };
 		B0B924F21ED5C35A00BA1543 /* SSDPServiceBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924D11ED5C35900BA1543 /* SSDPServiceBrowser.m */; };
 		B0B924F31ED5C35A00BA1543 /* SSDPServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924D21ED5C35900BA1543 /* SSDPServiceTypes.h */; };
 		B0B924F41ED5C35A00BA1543 /* SSDPServiceTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924D31ED5C35900BA1543 /* SSDPServiceTypes.m */; };
-		B0B924F51ED5C35A00BA1543 /* CocoaSSDP.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B0B924D41ED5C35900BA1543 /* CocoaSSDP.podspec */; };
-		B0B924F61ED5C35A00BA1543 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B0B924D91ED5C35A00BA1543 /* Podfile */; };
-		B0B924F71ED5C35A00BA1543 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B924DB1ED5C35A00BA1543 /* Main_iPad.storyboard */; };
-		B0B924F81ED5C35A00BA1543 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B924DD1ED5C35A00BA1543 /* Main_iPhone.storyboard */; };
-		B0B924F91ED5C35A00BA1543 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0B924DF1ED5C35A00BA1543 /* InfoPlist.strings */; };
-		B0B924FA1ED5C35A00BA1543 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B924E11ED5C35A00BA1543 /* Images.xcassets */; };
-		B0B924FB1ED5C35A00BA1543 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924E21ED5C35A00BA1543 /* main.m */; };
-		B0B924FC1ED5C35A00BA1543 /* SSDPAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924E31ED5C35A00BA1543 /* SSDPAppDelegate.h */; };
-		B0B924FD1ED5C35A00BA1543 /* SSDPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924E41ED5C35A00BA1543 /* SSDPAppDelegate.m */; };
-		B0B924FE1ED5C35A00BA1543 /* SSDPBrowser-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0B924E51ED5C35A00BA1543 /* SSDPBrowser-Info.plist */; };
-		B0B924FF1ED5C35A00BA1543 /* SSDPBrowser-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B0B924E61ED5C35A00BA1543 /* SSDPBrowser-Prefix.pch */; };
-		B0B925001ED5C35A00BA1543 /* SSDPDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924E71ED5C35A00BA1543 /* SSDPDetailViewController.h */; };
-		B0B925011ED5C35A00BA1543 /* SSDPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924E81ED5C35A00BA1543 /* SSDPDetailViewController.m */; };
-		B0B925021ED5C35A00BA1543 /* SSDPMasterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B924E91ED5C35A00BA1543 /* SSDPMasterViewController.h */; };
-		B0B925031ED5C35A00BA1543 /* SSDPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B924EA1ED5C35A00BA1543 /* SSDPMasterViewController.m */; };
-		B0B925041ED5C35A00BA1543 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0B924EB1ED5C35A00BA1543 /* LICENSE */; };
-		B0B925051ED5C35A00BA1543 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = B0B924EC1ED5C35A00BA1543 /* Rakefile */; };
-		B0B925061ED5C35A00BA1543 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0B924ED1ED5C35A00BA1543 /* README.md */; };
 		B0B9250C1ED5C45200BA1543 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B9250B1ED5C45200BA1543 /* CocoaAsyncSocket.framework */; };
 		B0B9250E1ED5C66800BA1543 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0B9250D1ED5C66800BA1543 /* Info.plist */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		B0B925081ED5C35A00BA1543 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B0B924D61ED5C35900BA1543 /* Demos.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E0E445AA1905A6E3002290A2;
-			remoteInfo = SSDPBrowser;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		6EBD13BB1FE33F38005DFD94 /* CocoaSSDP_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaSSDP_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBD13BE1FE33F38005DFD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B924C11ED5C33200BA1543 /* CocoaSSDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaSSDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0B924CC1ED5C35900BA1543 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		B0B924CE1ED5C35900BA1543 /* SSDPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPService.h; sourceTree = "<group>"; };
 		B0B924CF1ED5C35900BA1543 /* SSDPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPService.m; sourceTree = "<group>"; };
 		B0B924D01ED5C35900BA1543 /* SSDPServiceBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPServiceBrowser.h; sourceTree = "<group>"; };
 		B0B924D11ED5C35900BA1543 /* SSDPServiceBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPServiceBrowser.m; sourceTree = "<group>"; };
 		B0B924D21ED5C35900BA1543 /* SSDPServiceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPServiceTypes.h; sourceTree = "<group>"; };
 		B0B924D31ED5C35900BA1543 /* SSDPServiceTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPServiceTypes.m; sourceTree = "<group>"; };
-		B0B924D41ED5C35900BA1543 /* CocoaSSDP.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CocoaSSDP.podspec; sourceTree = "<group>"; };
-		B0B924D61ED5C35900BA1543 /* Demos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Demos.xcodeproj; sourceTree = "<group>"; };
-		B0B924D91ED5C35A00BA1543 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		B0B924DC1ED5C35A00BA1543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		B0B924DE1ED5C35A00BA1543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		B0B924E01ED5C35A00BA1543 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B0B924E11ED5C35A00BA1543 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B0B924E21ED5C35A00BA1543 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B0B924E31ED5C35A00BA1543 /* SSDPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPAppDelegate.h; sourceTree = "<group>"; };
-		B0B924E41ED5C35A00BA1543 /* SSDPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPAppDelegate.m; sourceTree = "<group>"; };
-		B0B924E51ED5C35A00BA1543 /* SSDPBrowser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SSDPBrowser-Info.plist"; sourceTree = "<group>"; };
-		B0B924E61ED5C35A00BA1543 /* SSDPBrowser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSDPBrowser-Prefix.pch"; sourceTree = "<group>"; };
-		B0B924E71ED5C35A00BA1543 /* SSDPDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDetailViewController.h; sourceTree = "<group>"; };
-		B0B924E81ED5C35A00BA1543 /* SSDPDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPDetailViewController.m; sourceTree = "<group>"; };
-		B0B924E91ED5C35A00BA1543 /* SSDPMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPMasterViewController.h; sourceTree = "<group>"; };
-		B0B924EA1ED5C35A00BA1543 /* SSDPMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDPMasterViewController.m; sourceTree = "<group>"; };
-		B0B924EB1ED5C35A00BA1543 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B0B924EC1ED5C35A00BA1543 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
-		B0B924ED1ED5C35A00BA1543 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0B9250B1ED5C45200BA1543 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		B0B9250D1ED5C66800BA1543 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6EBD13B71FE33F38005DFD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0B924BD1ED5C33200BA1543 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,17 +56,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EBD13BC1FE33F38005DFD94 /* CocoaSSDP-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EBD13BE1FE33F38005DFD94 /* Info.plist */,
+			);
+			path = "CocoaSSDP-MacOS";
+			sourceTree = "<group>";
+		};
 		B0B924B71ED5C33100BA1543 = {
 			isa = PBXGroup;
 			children = (
-				B0B924CC1ED5C35900BA1543 /* CHANGELOG.md */,
 				B0B9250D1ED5C66800BA1543 /* Info.plist */,
 				B0B924CD1ED5C35900BA1543 /* Classes */,
-				B0B924D41ED5C35900BA1543 /* CocoaSSDP.podspec */,
-				B0B924D51ED5C35900BA1543 /* Example */,
-				B0B924EB1ED5C35A00BA1543 /* LICENSE */,
-				B0B924EC1ED5C35A00BA1543 /* Rakefile */,
-				B0B924ED1ED5C35A00BA1543 /* README.md */,
+				6EBD13BC1FE33F38005DFD94 /* CocoaSSDP-MacOS */,
 				B0B924C21ED5C33200BA1543 /* Products */,
 				B0B9250A1ED5C45200BA1543 /* Frameworks */,
 			);
@@ -110,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				B0B924C11ED5C33200BA1543 /* CocoaSSDP.framework */,
+				6EBD13BB1FE33F38005DFD94 /* CocoaSSDP_MacOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,44 +97,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		B0B924D51ED5C35900BA1543 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-				B0B924D61ED5C35900BA1543 /* Demos.xcodeproj */,
-				B0B924D91ED5C35A00BA1543 /* Podfile */,
-				B0B924DA1ED5C35A00BA1543 /* SSDPBrowser */,
-			);
-			path = Example;
-			sourceTree = "<group>";
-		};
-		B0B924D71ED5C35900BA1543 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0B925091ED5C35A00BA1543 /* SSDPBrowser.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B0B924DA1ED5C35A00BA1543 /* SSDPBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				B0B924DB1ED5C35A00BA1543 /* Main_iPad.storyboard */,
-				B0B924DD1ED5C35A00BA1543 /* Main_iPhone.storyboard */,
-				B0B924DF1ED5C35A00BA1543 /* InfoPlist.strings */,
-				B0B924E11ED5C35A00BA1543 /* Images.xcassets */,
-				B0B924E21ED5C35A00BA1543 /* main.m */,
-				B0B924E31ED5C35A00BA1543 /* SSDPAppDelegate.h */,
-				B0B924E41ED5C35A00BA1543 /* SSDPAppDelegate.m */,
-				B0B924E51ED5C35A00BA1543 /* SSDPBrowser-Info.plist */,
-				B0B924E61ED5C35A00BA1543 /* SSDPBrowser-Prefix.pch */,
-				B0B924E71ED5C35A00BA1543 /* SSDPDetailViewController.h */,
-				B0B924E81ED5C35A00BA1543 /* SSDPDetailViewController.m */,
-				B0B924E91ED5C35A00BA1543 /* SSDPMasterViewController.h */,
-				B0B924EA1ED5C35A00BA1543 /* SSDPMasterViewController.m */,
-			);
-			path = SSDPBrowser;
-			sourceTree = "<group>";
-		};
 		B0B9250A1ED5C45200BA1543 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,16 +108,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6EBD13B81FE33F38005DFD94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBD13C71FE33F57005DFD94 /* SSDPServiceTypes.h in Headers */,
+				6EBD13C31FE33F57005DFD94 /* SSDPService.h in Headers */,
+				6EBD13C51FE33F57005DFD94 /* SSDPServiceBrowser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0B924BE1ED5C33200BA1543 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B0B924F31ED5C35A00BA1543 /* SSDPServiceTypes.h in Headers */,
-				B0B924FF1ED5C35A00BA1543 /* SSDPBrowser-Prefix.pch in Headers */,
-				B0B924FC1ED5C35A00BA1543 /* SSDPAppDelegate.h in Headers */,
 				B0B924EF1ED5C35A00BA1543 /* SSDPService.h in Headers */,
-				B0B925001ED5C35A00BA1543 /* SSDPDetailViewController.h in Headers */,
-				B0B925021ED5C35A00BA1543 /* SSDPMasterViewController.h in Headers */,
 				B0B924F11ED5C35A00BA1543 /* SSDPServiceBrowser.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +131,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6EBD13BA1FE33F38005DFD94 /* CocoaSSDP-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBD13C01FE33F38005DFD94 /* Build configuration list for PBXNativeTarget "CocoaSSDP-MacOS" */;
+			buildPhases = (
+				6EBD13B61FE33F38005DFD94 /* Sources */,
+				6EBD13B71FE33F38005DFD94 /* Frameworks */,
+				6EBD13B81FE33F38005DFD94 /* Headers */,
+				6EBD13B91FE33F38005DFD94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CocoaSSDP-MacOS";
+			productName = "CocoaSSDP-MacOS";
+			productReference = 6EBD13BB1FE33F38005DFD94 /* CocoaSSDP_MacOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B0B924C01ED5C33200BA1543 /* CocoaSSDP */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0B924C91ED5C33200BA1543 /* Build configuration list for PBXNativeTarget "CocoaSSDP" */;
@@ -220,6 +176,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = cambridgeaudio;
 				TargetAttributes = {
+					6EBD13BA1FE33F38005DFD94 = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 8777MV3N2V;
+						ProvisioningStyle = Automatic;
+					};
 					B0B924C01ED5C33200BA1543 = {
 						CreatedOnToolsVersion = 8.3.2;
 						ProvisioningStyle = Automatic;
@@ -237,96 +198,120 @@
 			mainGroup = B0B924B71ED5C33100BA1543;
 			productRefGroup = B0B924C21ED5C33200BA1543 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = B0B924D71ED5C35900BA1543 /* Products */;
-					ProjectRef = B0B924D61ED5C35900BA1543 /* Demos.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				B0B924C01ED5C33200BA1543 /* CocoaSSDP */,
+				6EBD13BA1FE33F38005DFD94 /* CocoaSSDP-MacOS */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		B0B925091ED5C35A00BA1543 /* SSDPBrowser.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SSDPBrowser.app;
-			remoteRef = B0B925081ED5C35A00BA1543 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
+		6EBD13B91FE33F38005DFD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0B924BF1ED5C33200BA1543 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B925051ED5C35A00BA1543 /* Rakefile in Resources */,
-				B0B924F81ED5C35A00BA1543 /* Main_iPhone.storyboard in Resources */,
-				B0B924F71ED5C35A00BA1543 /* Main_iPad.storyboard in Resources */,
-				B0B925041ED5C35A00BA1543 /* LICENSE in Resources */,
-				B0B924F61ED5C35A00BA1543 /* Podfile in Resources */,
-				B0B924FA1ED5C35A00BA1543 /* Images.xcassets in Resources */,
-				B0B924FE1ED5C35A00BA1543 /* SSDPBrowser-Info.plist in Resources */,
-				B0B924F51ED5C35A00BA1543 /* CocoaSSDP.podspec in Resources */,
 				B0B9250E1ED5C66800BA1543 /* Info.plist in Resources */,
-				B0B924F91ED5C35A00BA1543 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6EBD13B61FE33F38005DFD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBD13C61FE33F57005DFD94 /* SSDPServiceBrowser.m in Sources */,
+				6EBD13C81FE33F57005DFD94 /* SSDPServiceTypes.m in Sources */,
+				6EBD13C41FE33F57005DFD94 /* SSDPService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B0B924BC1ED5C33200BA1543 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B924FB1ED5C35A00BA1543 /* main.m in Sources */,
-				B0B925011ED5C35A00BA1543 /* SSDPDetailViewController.m in Sources */,
-				B0B925031ED5C35A00BA1543 /* SSDPMasterViewController.m in Sources */,
 				B0B924F21ED5C35A00BA1543 /* SSDPServiceBrowser.m in Sources */,
-				B0B924FD1ED5C35A00BA1543 /* SSDPAppDelegate.m in Sources */,
 				B0B924F41ED5C35A00BA1543 /* SSDPServiceTypes.m in Sources */,
-				B0B925061ED5C35A00BA1543 /* README.md in Sources */,
-				B0B924EE1ED5C35A00BA1543 /* CHANGELOG.md in Sources */,
 				B0B924F01ED5C35A00BA1543 /* SSDPService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B0B924DB1ED5C35A00BA1543 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0B924DC1ED5C35A00BA1543 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		B0B924DD1ED5C35A00BA1543 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0B924DE1ED5C35A00BA1543 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		B0B924DF1ED5C35A00BA1543 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0B924E01ED5C35A00BA1543 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		6EBD13C11FE33F38005DFD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8777MV3N2V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CocoaSSDP-MacOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "CambridgeAudio.CocoaSSDP-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6EBD13C21FE33F38005DFD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8777MV3N2V;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "CocoaSSDP-MacOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "CambridgeAudio.CocoaSSDP-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		B0B924C71ED5C33200BA1543 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -472,6 +457,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6EBD13C01FE33F38005DFD94 /* Build configuration list for PBXNativeTarget "CocoaSSDP-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBD13C11FE33F38005DFD94 /* Debug */,
+				6EBD13C21FE33F38005DFD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B0B924BB1ED5C33100BA1543 /* Build configuration list for PBXProject "CocoaSSDP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
