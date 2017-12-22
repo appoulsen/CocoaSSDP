@@ -31,7 +31,7 @@
 #import <net/if.h>
 #import <arpa/inet.h>
 #import <CocoaAsyncSocket/CocoaAsyncSocket.h>
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 NSString *const SSDPMulticastGroupAddress = @"239.255.255.250";
 int const SSDPMulticastUDPPort = 1900;
